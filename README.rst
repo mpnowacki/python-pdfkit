@@ -1,3 +1,13 @@
+Bundled-Python-PDFKit
+=====================
+
+This is Python-PDFKit bundled with wkhtmltopdf, so you don't have to install it separately. Only works
+on Gnu/Linux. Only tested on Debian. WKHTMLtoPDF is installed in your virtualenv, so it won't be available
+system-wide.
+
+To update the version of wkhtml... in this package, run the :code:`bundle.sh` script (change the version in
+ it first).
+
 Python-PDFKit: HTML to PDF wrapper
 ==================================
 
@@ -19,9 +29,9 @@ Installation
 
 .. code-block:: bash
 
-	$ pip install pdfkit  (or pip3 for python3)
+	$ pip install bundled-pdfkit  (or pip3 for python3)
 
-2. Install wkhtmltopdf:
+2. Install wkhtmltopdf (no need to do that):
 
 * Debian/Ubuntu:
 
